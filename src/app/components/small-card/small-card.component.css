@@ -20,7 +20,9 @@
 
 .small-card__title > h1{
     font-size: 25px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+}
+
+.small-card__title > p{
+    margin-top: 5px;
+    color: #FD048E;
 }

@@ -36,3 +36,8 @@
 .big-card__descricao > a > p{
     color: gray;
 }
+
+.big-card__descricao > a > .dataPublicacao{
+    margin-top: 5px;
+    color: rgb(253, 7, 142);
+}

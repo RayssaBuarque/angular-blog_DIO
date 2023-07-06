@@ -13,9 +13,10 @@ import {dadosFalsos} from '../../data/dadosFalsos-Noticias';
 export class SmallCardComponent implements OnInit {
 
   //PROPRIEDADES INPUTÁVEIS DO SMALL-CARD
-  @Input() photoCover:string = ''
-  @Input() photoAltText:string=''
-  @Input() cardTitle:string=''
+  photoCover:string = ''
+  photoAltText:string=''
+  cardTitle:string=''
+  dataPostagem:string = ''
   @Input() id:string =''
   private Id: string | null = '' 
 
@@ -33,5 +34,6 @@ export class SmallCardComponent implements OnInit {
     this.cardTitle = dados.title;
     this.photoCover = dados.photo;
     this.photoAltText = dados.altPhotoText;
+    this.dataPostagem = dados.dataPostagem;
   }
 }

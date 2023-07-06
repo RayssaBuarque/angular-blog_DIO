@@ -6,10 +6,14 @@
             srcset=""
         >
     </div>
+
     <div class="big-card__title">
         <h1><a [routerLink]="['content',id]">{{cardTitle}}</a></h1>
     </div>
     <div class="big-card__descricao"><a [routerLink]="['content',id]">
         <p>{{cardDescricao}}</p>
+
+        <p class="dataPublicacao">{{dataPublicacao}}</p>
     </a></div>
+
 </div>
