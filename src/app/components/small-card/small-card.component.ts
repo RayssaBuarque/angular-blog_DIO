@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import {dadosFalsos} from '../../data/dadosFalsos-Noticias';
 
 @Component({
   selector: 'app-small-card',
@@ -14,10 +16,22 @@ export class SmallCardComponent implements OnInit {
   @Input() photoCover:string = ''
   @Input() photoAltText:string=''
   @Input() cardTitle:string=''
-  @Input() cardUrl:string=''
-  constructor() { }
+  @Input() id:string =''
+  private Id: string | null = '' 
+
+  constructor(private route:ActivatedRoute) { }
 
   ngOnInit(): void {
+    this.route.paramMap.subscribe( (value) => this.Id = value.get('id') );
+
+    this.setValuesToComponent(this.id)
   }
 
+  setValuesToComponent(id:string | null){
+    const dados = dadosFalsos.filter( (article) => article.id == id )[0];
+
+    this.cardTitle = dados.title;
+    this.photoCover = dados.photo;
+    this.photoAltText = dados.altPhotoText;
+  }
 }

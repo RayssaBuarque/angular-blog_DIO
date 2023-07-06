@@ -1,0 +1,25 @@
+<div class="container__content">
+    <div class="content__btnVoltar">
+        <a [routerLink]="['']">←</a>
+    </div>
+
+    <div class="content__cover">
+        <img src="{{photoCover}}" alt="{{photoAltText}}" srcset="">
+    </div>
+
+    <div class="content__title">
+        <h1>{{contentTitle}}</h1>
+
+        <br><hr>
+    </div>
+
+    <div class="content__descricao">
+        <p>{{contentText}}</p>
+
+        <div class="descricao__bottom">
+            <a href="{{contentMore}}" target="_blank">Saiba mais!</a>
+            <p>{{dataPostagem}}</p>
+        </div>
+    </div>
+
+</div>
