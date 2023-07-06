@@ -1,0 +1,9 @@
+@media screen and (max-width:500px){
+    .container__menu-bar > ul > li{
+        margin-right: .5rem;
+    }
+
+    .container__menu-bar > ul > li> a{
+        font-size: 12px;
+    }
+}

@@ -9,5 +9,6 @@
 }
 
 .container__menu-bar > ul > li> a{
+    font-size: 16px;
     color: gray;
 }

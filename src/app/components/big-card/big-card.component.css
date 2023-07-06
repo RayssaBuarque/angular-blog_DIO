@@ -1,7 +1,7 @@
 .container__big-card{
     color:white;
 
-    height: 500px;
+    height: auto;
     width: 450px;
 
     display: flex;

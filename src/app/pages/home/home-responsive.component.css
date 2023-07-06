@@ -1,0 +1,25 @@
+@media screen and (max-width:800px){
+    .container__articles{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width:500px){
+    header{
+        margin-top: 0.5rem;
+    }
+
+    .container__articles{
+        margin-top: 15px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .articles__destaque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

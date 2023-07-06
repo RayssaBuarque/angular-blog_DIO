@@ -1,0 +1,45 @@
+@media screen and (max-width:1109px){
+    .container__small-card{
+        margin-bottom: 12px;
+    }
+
+    .small-card__photo > img{
+        height: 75px;
+        width: 125px;
+        min-width: 125px;
+        margin-right: 20px;
+    }
+
+    .small-card__title > h1{font-size: 22px;}
+}
+
+@media screen and (max-width:800px){
+    .container__small-card{
+        margin-bottom: 5px;
+    }
+
+    .small-card__photo > img{
+        height: 50px;
+        width: 75px;
+        min-width: 75px;
+        margin-right: 20px;
+    }
+
+    .small-card__title > h1{font-size: 14px;}
+}
+
+@media screen and (max-width:500px){
+    .container__small-card{
+        width: auto;
+        margin-bottom: 12px;
+    }
+
+    .small-card__photo > img{
+        height: 75px;
+        width: 125px;
+        min-width: 125px;
+        margin-right: 20px;
+    }
+
+    .small-card__title > h1{font-size: 20px;}
+}
