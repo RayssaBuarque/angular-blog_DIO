@@ -2,7 +2,7 @@
 My first Angular based Project.
 
 This Personal Blog was developed based off this [Dribbble](https://dribbble.com/shots/18089191-Blog-Layout) layout inspiration.
-![Print da tela do Blog desenvolvido](src\assets\thumbnail.png)
+![Print da tela do Blog desenvolvido](/src/assets/thumbnail.png)
 
 >Side Project made during my participation in [DIO's Angular BootCamp powered by iFood](https://web.dio.me/track/potencia-tech-angular-developer-powered-ifood).
 
