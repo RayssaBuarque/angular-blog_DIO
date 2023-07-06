@@ -12,3 +12,7 @@
 a{
     text-decoration: none;
 }
+
+hr{
+    border: .1px solid #292929;
+}
