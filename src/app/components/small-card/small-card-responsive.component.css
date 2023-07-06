@@ -1,5 +1,6 @@
 @media screen and (max-width:1109px){
     .container__small-card{
+        width: auto;
         margin-bottom: 12px;
     }
 
