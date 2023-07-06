@@ -1,6 +1,6 @@
 # Angular Blog DIO
 
-Blog desenvolvido com Angular com base em layout do [Dribbble] (https://dribbble.com/shots/18089191-Blog-Layout).
+Blog desenvolvido com Angular com base em layout do [Dribbble](https://dribbble.com/shots/18089191-Blog-Layout).
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
