@@ -13,6 +13,7 @@ This project was made with [Angular CLI](https://github.com/angular/angular-cli)
 
 I mainly used the documentation in the [Angular CLI Overview and Command Reference](https://angular.io/cli) page for reference during development.
 
-{::comment}
+<!---
     Handling: Components, Browser Responsitivity and Angular Routes
-{:/comment}
+-->
+
