@@ -21,9 +21,12 @@ export class ContentComponent implements OnInit {
   dataPostagem:string=''
   private id:string | null= "0"
 
-  constructor(
-    private route:ActivatedRoute
-  ) { }
+  //determinando que o componente precisa de um argumento ao carregar
+  constructor(private route:ActivatedRoute) {
+    this.route.params.subscribe( res => console.log(res) ) //printando o parâmetro do path
+
+    this.route.queryParams.subscribe( res => console.log(res) ) //printando as querys do path
+  }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe( (value) => this.id = value.get('id') );
